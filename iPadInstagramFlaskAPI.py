@@ -9,7 +9,7 @@ class InstaApi(object):
 	@staticmethod
 	@app.route('/ping', methods=['GET'])
 	def ping():
-		return "pong"
+		return "pong du geiler"
 	
 	def run(self,debug=False, port=8080):
 		self.app.run(port=port, debug=debug)
